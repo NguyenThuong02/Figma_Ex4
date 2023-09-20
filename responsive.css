@@ -1,0 +1,74 @@
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .header{
+        padding: 17px 3.226%;
+    }
+    .body{
+        padding: 0 3.226%;
+    }
+    .chesse__content--title{
+        width: 50%;
+        font-size: 3.90625vw;
+    }
+    .chesse__content--text{
+        width: 100%;
+        font-size: 1.7578vw;
+    }
+}
+
+/* Mobile & Tablet */
+@media screen and (max-width: 1023px) {
+    .header-nav{
+        display: none;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-menu{
+        display: block;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 739px){
+    .header{
+        padding: 17px 6.154%;
+    }
+    .header-name{
+        font-size: 20px;
+    }
+    .body{
+        padding: 0 6.154%;
+    }
+    .chesse{
+        padding: 0;
+    }
+    .chesse-content{
+        padding: 0;
+    }
+    .chesse__content--title{
+        width: 50%;
+        font-size: 5.505vw;
+    }
+    .chesse__content--text{
+        width: 60%;
+        font-size: 3.162vw;
+    }
+    .chesse__content--bottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .chesse-img{
+        margin-top: 41px;
+    }
+    .chesse__content--btn{
+        width: 135px;
+        height: 38px;
+    }
+    .chesse__content--btn-text{
+        width: 80%;
+        font-size: 3.162vw;
+        font-weight: 600;
+        text-align: center;
+    }
+}

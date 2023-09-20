@@ -1,0 +1,56 @@
+.body{
+    padding: 0 3.125%;
+}
+.chesse{
+    padding: 32px 0;
+}
+.chesse-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16.113% 68px 16.113%;
+}
+.chesse__content--title{
+    font-size: 3.57vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 50%;
+    text-align: center;
+}
+.chesse__content--text{
+    margin-top: 24px;
+    width: 65%;
+    text-align: center;
+    font-size: 1.714vw;
+    font-weight: 300;
+}
+.chesse__content--bottom{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.chesse__content--btn{
+    width: 165px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFCF23;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;   
+}
+.chesse__content--btn-text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.chesse-img{
+    /* background: url(./img/chesse.jpeg) center / cover no-repeat; */
+    width: 100%;
+    object-fit: cover;
+    height: 428px;
+    border-radius: 12px;
+}
