@@ -68,6 +68,9 @@
     .slider-slogan h1{
         font-size: 34px;
     }
+    .footer{
+        padding: 40px 2.957%;
+    }
 }
 
 
@@ -145,5 +148,25 @@
     }
     .slider-slogan h1{
         font-size: 24px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 50px 7.6923%;
+    }
+    .footer__left{
+        width: 100%;
+        align-items: center;
+    }
+    .footer__option--list{
+        text-align: center;
+    }
+    .footer__sub{
+        align-items: center;
+        width: 100%;
+    }
+    .footer__sub p{
+        text-align: center;
     }
 }
